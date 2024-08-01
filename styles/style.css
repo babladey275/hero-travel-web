@@ -19,8 +19,25 @@ body {
     color: #FF5400;
 }
 
+h3 {
+    font-size: 2.25rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+section {
+    width: 90%;
+    margin: 3rem auto;
+    border-radius: 1rem;
+}
+
 /* nav related styles */
-.navbar{
+.navbar, section {
     width: 90%;
     margin: 3rem auto;
     justify-content: space-between;
@@ -45,15 +62,73 @@ body {
 
 .logo-container {
     align-items: center;
-    gap: 1rem;
 }
 
 .logo {
     height: 56px;
     width: 48px;
+    margin-right: 1rem;
 }
 
-.brand {
-    font-size: 2.25rem;
-    font-weight: 900;
+/* banner related styles */
+.banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%), url(../Images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h3 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner p {
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 26px;
+    width: 676px;
+    padding: 1.5rem 0;
+    margin: auto;
+}
+
+.travel-inputs {
+    margin-top: 2rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input, select {
+    width: 175px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin: 0 1rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.5);
+}
+
+.btn-find {
+    width: 175px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 0.7rem 1.2rem;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+    color: white;
 }
