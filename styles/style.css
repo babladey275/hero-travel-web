@@ -49,6 +49,9 @@ p{
     cursor: pointer;
 }
 /* nav related styles */
+.ham-burger {
+    display: none;
+}
 .navbar{
     width: 90%;
     margin: 3rem auto;
@@ -240,7 +243,6 @@ footer .logo-container {
     justify-content: space-between;
     align-items: center;
     margin: 2rem auto;
-
 }
 
 .social i {
@@ -249,7 +251,7 @@ footer .logo-container {
 }
 
 footer hr {
-    width: 872px;
+    /* width: 872px; */
     margin: 2rem auto;
 }
 
